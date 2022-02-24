@@ -1,0 +1,15 @@
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\bin\Debug\PrototipoAendir.exe.config
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\bin\Debug\PrototipoAendir.exe
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\bin\Debug\PrototipoAendir.pdb
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.csproj.AssemblyReference.cache
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\MainWindow.g.cs
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\App.g.cs
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir_MarkupCompile.cache
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir_MarkupCompile.lref
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\MainWindow.baml
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.g.resources
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.Properties.Resources.resources
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.csproj.GenerateResource.cache
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.csproj.CoreCompileInputs.cache
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.exe
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.pdb
