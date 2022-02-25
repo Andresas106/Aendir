@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PrototipoAendir"
         mc:Ignorable="d"
         Title="Mapa Interactivo de Aendir" Height="450" Width="800"
-        WindowState="Maximized" WindowStyle="ToolWindow"
+         WindowStyle="ToolWindow" Background="Black"
         >
     
     <Window.Resources>
@@ -251,13 +251,18 @@
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Button Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
-                HorizontalAlignment="Center" VerticalAlignment="Center"
-                Content="Start" Foreground="Beige"></Button>
+        <Image Grid.ColumnSpan="2" Grid.RowSpan="2"
+               Source="Assets/fondo.jpg"></Image>
 
-        <Button Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Padding="100 100 100 100"
+        <Button x:Name="btnStart" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
                 HorizontalAlignment="Center" VerticalAlignment="Center"
-                Content="Exit" Foreground="Beige"></Button>
+                Content="Start" Foreground="DimGray" Click="btnStart_Click"></Button>
+
+        <Button x:Name="btnExit" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Padding="100 100 100 100"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                Content="Exit" Foreground="DimGray" Click="btnExit_Click"></Button>
+
+
 
     </Grid>
 </Window>
