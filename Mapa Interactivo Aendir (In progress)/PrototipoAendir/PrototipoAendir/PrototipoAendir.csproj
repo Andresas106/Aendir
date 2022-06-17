@@ -55,8 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Imagen.cs" />
     <Compile Include="View\Mapa.xaml.cs">
       <DependentUpon>Mapa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MapaEspecifico.xaml.cs">
+      <DependentUpon>MapaEspecifico.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -71,6 +75,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\Mapa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MapaEspecifico.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,6 +114,26 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Calion.jpg" />
+    <Resource Include="Assets\Caolia.jpg" />
+    <Resource Include="Assets\Cinnabar.jpg" />
+    <Resource Include="Assets\Coven.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Imperio_Gris.jpg" />
+    <Resource Include="Assets\KRAELAND_.jpg" />
+    <Resource Include="Assets\Lindiel.jpg" />
+    <Resource Include="Assets\Mened-Pul_2.jpg" />
+    <Resource Include="Assets\Picos_de_Rundaur.jpg" />
+    <Resource Include="Assets\Runn_y_Ered-Pul_2.jpg" />
+    <Resource Include="Assets\Suren.jpg" />
+    <Resource Include="Assets\Tierra_de_los_Jardines.jpg" />
+    <Resource Include="Assets\Vetelia_arreglo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

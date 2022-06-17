@@ -28,7 +28,7 @@ namespace PrototipoAendir
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-            var newForm = new Mapa();
+            Mapa newForm = new Mapa();
             newForm.Show();
             this.Close();
             

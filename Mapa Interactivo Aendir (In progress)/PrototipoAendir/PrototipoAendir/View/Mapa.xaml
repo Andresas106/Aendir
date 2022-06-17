@@ -6,9 +6,95 @@
         xmlns:local="clr-namespace:PrototipoAendir.View"
         mc:Ignorable="d"
         Title="Mapa" Height="600" Width="800"
-        WindowState="Maximized" WindowStyle="ToolWindow"
+        WindowState="Normal" WindowStyle="ToolWindow" ResizeMode="NoResize"
         Background="AliceBlue">
+
+    <Window.Resources>
+        <LinearGradientBrush x:Key="TransGradientBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Transparent" Offset="0" />
+            <GradientStop Color="Transparent" Offset="0.5" />
+            <GradientStop Color="Transparent" Offset="1" />
+        </LinearGradientBrush>
+
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="{StaticResource TransGradientBrush}"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Margin" Value="50"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" ClipToBounds="True">
+                            <!-- Outer Rectangle with rounded corners. -->
+
+                            <!-- Inner Rectangle with rounded corners. -->
+                            <Ellipse x:Name="innerRectangle" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                                     Stroke="Transparent" StrokeThickness="20" Fill="{TemplateBinding Background}" />
+                            <!-- Present Content (text) of the button. -->
+                            <DockPanel Name="myContentPresenterDockPanel">
+                                <ContentPresenter x:Name="myContentPresenter" Margin="20" Content="{TemplateBinding  Content}" TextBlock.Foreground="Black" />
+                            </DockPanel>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+
     <Grid>
         <Image Source="../Assets/Aendir_definitivo.jpg"></Image>
+        <Button x:Name="btnKraeland" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="35,132,685,404" Height="34" Width="72" Click="btnClick"></Button>
+        <Button x:Name="btnCaolia" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="102,155,629,387" Height="30" Width="63" Click="btnClick"></Button>
+        <Button x:Name="btnMened" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="172,140,524,390" Height="42" Width="98" Click="btnClick"/>
+        <Button x:Name="btnLindiel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="169,186,528,362" Height="24" Width="97" Click="btnClick" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="13.557"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnEred" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="148,206,603,342" Height="24" Width="43" Click="btnClick" RenderTransformOrigin="0.419,0.438"></Button>
+        <Button x:Name="btnVetelia" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="284,80,280,352" Height="140" Width="230" Click="btnClick"/>
+        <Button x:Name="btnPicos" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="524,45,54,119" Height="408" Width="216" Click="btnClick"/>
+        <Button x:Name="btnImperio" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="25,185,669,356" Height="31" Width="100" Click="btnClick"/>
+        <Button x:Name="btnRunn1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="133,231,575,315" Height="26" Width="86" Click="btnClick" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-15.46"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnRunn2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="115,222,628,326" Height="24" Width="51" Click="btnClick" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="44.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnCalion" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="75,227,676,321" Height="24" Width="43" Click="btnClick" RenderTransformOrigin="0.419,0.438"/>
+        <Button x:Name="btnJardines" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-11,231,699,277" Height="64" Width="106" Click="btnClick" RenderTransformOrigin="0.419,0.438">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="30.844"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnSuren" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="111,276,442,150" Height="146" Width="241" Click="btnClick" RenderTransformOrigin="0.419,0.438"/>
+        <Button x:Name="btnCinnabar" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="243,225,280,301" Height="46" Width="271" Click="btnClick" RenderTransformOrigin="0.419,0.438"/>
+        <Button x:Name="btnCoven" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="357,282,286,251" Height="39" Width="151" Click="btnClick" RenderTransformOrigin="0.419,0.438"/>
+
+
     </Grid>
 </Window>

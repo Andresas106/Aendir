@@ -15,3 +15,5 @@ C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)
 C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\PrototipoAendir.pdb
 C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\View\Mapa.g.cs
 C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\View\Mapa.baml
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\View\MapaEspecifico.g.cs
+C:\Users\Andres\OneDrive\Escritorio\Aendir\Mapa Interactivo Aendir (In progress)\PrototipoAendir\PrototipoAendir\obj\Debug\View\MapaEspecifico.baml
