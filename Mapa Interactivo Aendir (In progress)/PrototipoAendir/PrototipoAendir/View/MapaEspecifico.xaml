@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrototipoAendir.View"
-        mc:Ignorable="d" ResizeMode="NoResize"
+        mc:Ignorable="d" ResizeMode="NoResize" WindowStyle="ToolWindow"
         Title="MapaEspecifico" Height="770" Width="990" Loaded="Window_Loaded">
     <Grid>
         <Image x:Name="imgMapita" ></Image>
