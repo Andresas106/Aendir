@@ -21,6 +21,7 @@ namespace PrototipoAendir.View
     public partial class MapaEspecifico : Window
     {
 
+
         List<Imagen> listaImg = new List<Imagen>()
         {
             new Imagen(1, "Assets/KRAELAND_.jpg"),
@@ -45,22 +46,13 @@ namespace PrototipoAendir.View
         {
             InitializeComponent();
             this.id = id;
+
+            viewBox1.Height = 770;
+            viewBox1.Width = 990;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            if(id == 7)
-            {
-                this.Height = 1000;
-                this.Width = 1000;
-            }
-            else
-            {
-                this.Height = 770;
-                this.Width = 990;
-            }
-
-
+        {   
             for(int i=0;i<listaImg.Count;i++)
             {
                 if(listaImg[i].Id == id)
@@ -68,7 +60,20 @@ namespace PrototipoAendir.View
                     imgMapita.Source = new BitmapImage(new Uri(@"/" +listaImg[i].Source, UriKind.Relative));
                 }
             }
-            
+        }
+
+        private void Window_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            UpdateViewBox(e.Delta > 0 ? 10 : -10);
+        }
+
+        private void UpdateViewBox(int valor)
+        {
+            if(viewBox1.Width + valor >= 0 && viewBox1.Height > 0 )
+            {
+                viewBox1.Height += valor;
+                viewBox1.Width += valor;
+            }
         }
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
@@ -77,5 +82,7 @@ namespace PrototipoAendir.View
             this.Close();
             m.Show();
         }
+
+        
     }
 }
