@@ -8,12 +8,14 @@
         Title="MapaEspecifico" Height="770" Width="990" Loaded="Window_Loaded"
         MouseWheel="Window_MouseWheel">
     <Grid>
-        <Viewbox x:Name="viewBox1" >
+        
+            <Viewbox x:Name="viewBox1" >
             <Image x:Name="imgMapita" ></Image>
         </Viewbox>
-        <!--Button x:Name="btnBack" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="0" 
+        <Button x:Name="btnBack" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="0" 
                 Height="50" Width="50" Click="btnBack_Click" Opacity="0.5" Margin="0 10 0 0">
             <Image Source="../Assets/back.png"></Image>
-        </Button-->
+        </Button>
+        
     </Grid>
 </Window>

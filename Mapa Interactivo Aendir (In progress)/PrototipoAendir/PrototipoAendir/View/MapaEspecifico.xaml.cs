@@ -69,7 +69,7 @@ namespace PrototipoAendir.View
 
         private void UpdateViewBox(int valor)
         {
-            if(viewBox1.Width + valor >= 0 && viewBox1.Height > 0 )
+            if(viewBox1.Width + valor >= 0 && viewBox1.Height + valor >= 0 )
             {
                 viewBox1.Height += valor;
                 viewBox1.Width += valor;
