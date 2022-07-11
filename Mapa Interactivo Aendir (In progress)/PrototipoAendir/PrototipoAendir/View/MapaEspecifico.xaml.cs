@@ -46,9 +46,6 @@ namespace PrototipoAendir.View
         {
             InitializeComponent();
             this.id = id;
-
-            viewBox1.Height = 770;
-            viewBox1.Width = 990;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -62,19 +59,7 @@ namespace PrototipoAendir.View
             }
         }
 
-        private void Window_MouseWheel(object sender, MouseWheelEventArgs e)
-        {
-            UpdateViewBox(e.Delta > 0 ? 10 : -10);
-        }
-
-        private void UpdateViewBox(int valor)
-        {
-            if(viewBox1.Width + valor >= 0 && viewBox1.Height + valor >= 0 )
-            {
-                viewBox1.Height += valor;
-                viewBox1.Width += valor;
-            }
-        }
+        
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
