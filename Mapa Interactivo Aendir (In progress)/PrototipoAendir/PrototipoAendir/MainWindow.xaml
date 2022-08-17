@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrototipoAendir"
         mc:Ignorable="d"
-        Title="Mapa Interactivo de Aendir" Height="450" Width="800"
-         WindowStyle="ToolWindow" Background="Black"
+        Title="Mapa Interactivo de Aendir"  Height="450" Width="800"
+         Icon="icono1.ico" Background="Black" ResizeMode="NoResize"
         >
     
     <Window.Resources>
@@ -252,7 +252,7 @@
         </Grid.RowDefinitions>
 
         <Image Grid.ColumnSpan="2" Grid.RowSpan="2"
-               Source="Assets/fondo.jpg"></Image>
+               Source="Assets/Otros/fondo.jpg"></Image>
 
         <Button x:Name="btnStart" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
                 HorizontalAlignment="Center" VerticalAlignment="Center"

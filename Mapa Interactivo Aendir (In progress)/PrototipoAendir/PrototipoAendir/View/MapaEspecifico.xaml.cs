@@ -24,19 +24,19 @@ namespace PrototipoAendir.View
 
         List<Imagen> listaImg = new List<Imagen>()
         {
-            new Imagen(1, "Assets/KRAELAND_.jpg"),
-            new Imagen(2, "Assets/Caolia.jpg"),
-            new Imagen(3, "Assets/Mened-pul_2.jpg"),
-            new Imagen(4, "Assets/Lindiel.jpg"),
-            new Imagen(5, "Assets/Runn_y_Ered-pul_2.jpg"),
-            new Imagen(6, "Assets/Vetelia_arreglo.jpg"),
-            new Imagen(7, "Assets/Picos_de_Rundaur.jpg"),
-            new Imagen(8, "Assets/Imperio_Gris.jpg"),
-            new Imagen(9, "Assets/Calion.jpg"),
-            new Imagen(10, "Assets/Tierra_de_los_Jardines.jpg"),
-            new Imagen(11, "Assets/Suren.jpg"),
-            new Imagen(12, "Assets/Cinnabar.jpg"),
-            new Imagen(13, "Assets/Coven.jpg")
+            new Imagen(1, "Assets/MapImages/KRAELAND_.jpg"),
+            new Imagen(2, "Assets/MapImages/Caolia.jpg"),
+            new Imagen(3, "Assets/MapImages/Mened-pul_2.jpg"),
+            new Imagen(4, "Assets/MapImages/Lindiel.jpg"),
+            new Imagen(5, "Assets/MapImages/Runn_y_Ered-pul_2.jpg"),
+            new Imagen(6, "Assets/MapImages/Vetelia_arreglo.jpg"),
+            new Imagen(7, "Assets/MapImages/Picos_de_Rundaur.jpg"),
+            new Imagen(8, "Assets/MapImages/Imperio_Gris.jpg"),
+            new Imagen(9, "Assets/MapImages/Calion.jpg"),
+            new Imagen(10, "Assets/MapImages/Tierra_de_los_Jardines.jpg"),
+            new Imagen(11, "Assets/MapImages/Suren.jpg"),
+            new Imagen(12, "Assets/MapImages/Cinnabar.jpg"),
+            new Imagen(13, "Assets/MapImages/Coven.jpg")
         };
 
         

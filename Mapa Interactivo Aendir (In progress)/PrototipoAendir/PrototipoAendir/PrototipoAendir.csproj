@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -110,30 +113,36 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Aendir_definitivo.jpg" />
+    <Resource Include="Assets\MapImages\Aendir_definitivo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\fondo.jpg" />
+    <Resource Include="Assets\Otros\fondo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Calion.jpg" />
-    <Resource Include="Assets\Caolia.jpg" />
-    <Resource Include="Assets\Cinnabar.jpg" />
-    <Resource Include="Assets\Coven.jpg" />
+    <Resource Include="Assets\MapImages\Calion.jpg" />
+    <Resource Include="Assets\MapImages\Caolia.jpg" />
+    <Resource Include="Assets\MapImages\Cinnabar.jpg" />
+    <Resource Include="Assets\MapImages\Coven.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Imperio_Gris.jpg" />
-    <Resource Include="Assets\KRAELAND_.jpg" />
-    <Resource Include="Assets\Lindiel.jpg" />
-    <Resource Include="Assets\Mened-Pul_2.jpg" />
-    <Resource Include="Assets\Picos_de_Rundaur.jpg" />
-    <Resource Include="Assets\Runn_y_Ered-Pul_2.jpg" />
-    <Resource Include="Assets\Suren.jpg" />
-    <Resource Include="Assets\Tierra_de_los_Jardines.jpg" />
-    <Resource Include="Assets\Vetelia_arreglo.jpg" />
+    <Resource Include="Assets\MapImages\Imperio_Gris.jpg" />
+    <Resource Include="Assets\MapImages\KRAELAND_.jpg" />
+    <Resource Include="Assets\MapImages\Lindiel.jpg" />
+    <Resource Include="Assets\MapImages\Mened-Pul_2.jpg" />
+    <Resource Include="Assets\MapImages\Picos_de_Rundaur.jpg" />
+    <Resource Include="Assets\MapImages\Runn_y_Ered-Pul_2.jpg" />
+    <Resource Include="Assets\MapImages\Suren.jpg" />
+    <Resource Include="Assets\MapImages\Tierra_de_los_Jardines.jpg" />
+    <Resource Include="Assets\MapImages\Vetelia_arreglo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\back.png" />
+    <Resource Include="Assets\Otros\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Iconos\icono1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

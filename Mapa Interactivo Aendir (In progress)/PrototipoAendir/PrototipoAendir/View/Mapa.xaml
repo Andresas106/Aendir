@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:PrototipoAendir.View"
         mc:Ignorable="d"
         Title="Mapa" Height="600" Width="800"
-        WindowState="Normal" WindowStyle="ToolWindow" ResizeMode="NoResize"
-        Background="AliceBlue">
+        WindowState="Normal" Icon="../icono1.ico" ResizeMode="NoResize"
+        Background="AliceBlue" >
 
     <Window.Resources>
         <LinearGradientBrush x:Key="TransGradientBrush" StartPoint="0,0" EndPoint="1,1">
@@ -42,7 +42,7 @@
 
 
     <Grid>
-        <Image Source="../Assets/Aendir_definitivo.jpg"></Image>
+        <Image Source="../Assets/MapImages/Aendir_definitivo.jpg"></Image>
         <Button x:Name="btnKraeland" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="35,132,685,404" Height="34" Width="72" Click="btnClick"></Button>
         <Button x:Name="btnCaolia" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="102,155,629,387" Height="30" Width="63" Click="btnClick"></Button>
         <Button x:Name="btnMened" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="172,140,524,390" Height="42" Width="98" Click="btnClick"/>
